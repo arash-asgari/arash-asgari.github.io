@@ -43,7 +43,7 @@ h1 { margin: 0; font-size: clamp(44px, 6vw, 68px); font-weight: 800; line-height
 .interests { color: var(--muted); font-size: 13px; line-height: 1.9; }
 .interests strong { color: var(--ink); font-size: 12px; letter-spacing: .3px; }
 .hero-photo-wrap { position: relative; width: 100%; max-width: 300px; justify-self: end; align-self: center; margin-top: 35px; }
-.hero-photo { display: block; width: 100%; height: auto; object-fit: contain; object-position: center; border-radius: 4px; box-shadow: 12px 12px 0 #e8eff0; }
+.hero-photo { display: block; width: 100%; height: auto; object-fit: contain; object-position: center; border-radius: 4px; box-shadow: 12px 12px 0 #e8eff0; transform: translate(20px, 20px); }
 .photo-caption { margin-top: 25px; color: var(--muted); font-size: 12px; line-height: 1.6; text-align: right; }
 .content-section { padding-top: 78px; padding-bottom: 84px; }
 .section-tint { background: var(--soft); box-shadow: 0 0 0 100vmax var(--soft); clip-path: inset(0 -100vmax); }
